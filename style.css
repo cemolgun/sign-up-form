@@ -47,22 +47,24 @@ form div.form-header{
     font-size: 2rem;
     font-weight: bold;
     padding: 1rem;
-    margin-top:2.5%;
-    margin-bottom: 7.5%;
+    margin-top:5vh;
+    margin-bottom: 10vh;
 }
 .inflex{
-    margin: 2rem;
+    margin: 5vh;
     display:flex;
     justify-content: center;
-    gap:10%;
+    gap:3vw;
 }
 .inflex input{
     margin-top: 0.45rem;
     width: 20vw;
     height: 1.5rem;
     border-radius: 5px;
+    border: 2px solid black;
 }
 button{
+    margin-top: 5vh;
     margin: auto;
     display: block;
     width: 10vw;
@@ -71,11 +73,14 @@ button{
     font-weight: bold;
 }
 input:invalid{
-    border-color: red;
+    border-color: gray;
 }
 input:valid{
     border-color: green;
 }
 a, a:visited, a:link{
     color:white;
+}
+.pass-alert{
+    display: none;
 }
